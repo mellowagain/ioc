@@ -4,6 +4,7 @@
 
 _site/.netlify/*
 _site/**/*.html
+!_site/404.html
 
 articles/*
 !articles/*.md
