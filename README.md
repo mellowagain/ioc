@@ -1,4 +1,4 @@
-# ioc
+# ioc [![Netlify Status](https://api.netlify.com/api/v1/badges/71aacd4f-0f19-43ba-8a8c-c3d24de81cf1/deploy-status)](https://app.netlify.com/sites/ioc/deploys)
 
 The official instanceof.coffee primitive static site generator. Not much more.  
   
