@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/roboto.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/fira-code.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/github-markdown.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/default-highlight.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/app.css">
+
+    <title>instanceof coffee</title>
+
+    <meta property="og:title" content="instanceof coffee">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Make interesting things your interest.">
+    <meta property="og:site_name" content="instanceof.coffee">
+
+    <meta name="description" content="Make interesting things your interest.">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="content">
+                <span class="brand">
+                    <a href="/" class="link">instanceof coffee</a>
+                </span>
+            <span class="links">
+                    <a href="/" class="link">blog</a>
+                    <a href="mailto:instanceofcoffee@marcsteiner.me" class="link">contact</a>
+                </span>
+        </div>
+    </nav>
+    <main class="container">
+        @model.forEach(function (m) {
+            <div class="blog-post">
+                <h1><a href="@m.url">@m.title</a></h1>
+                <h3>@m.date — by <b><a href="@m.author_url">@m.author</a></b></h3>
+                <div class="preview markdown-body">
+                    @html.raw(m.preview)
+                    <a class="read-more" href="@m.url">Read more...</a>
+                </div>
+            </div>
+        })
+    </main>
+</body>
+
+<script src="/static/js/highlight.js"></script>
+<script src="/static/js/app.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131249369-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131249369-2');
+</script>
+</html>

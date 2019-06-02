@@ -1,0 +1,24 @@
+{
+  "name": "ioc",
+  "version": "1.0.0",
+  "description": "instanceof.coffee static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marc3842h/ioc.git"
+  },
+  "author": "Marc3842h",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marc3842h/ioc/issues"
+  },
+  "homepage": "https://github.com/Marc3842h/ioc#readme",
+  "dependencies": {
+    "marked": "^0.6.2",
+    "shelljs": "^0.8.3",
+    "vash": "^0.12.6"
+  }
+}

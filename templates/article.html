@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/roboto.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/fira-code.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/github-markdown.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/default-highlight.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/app.css">
+
+    <title>@model.title - instanceof coffee</title>
+
+    <meta property="og:title" content="@model.title">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="@model.image">
+    <meta property="og:description" content="@model.description">
+    <meta property="og:site_name" content="instanceof.coffee">
+    <meta name="description" content="@model.description">
+</head>
+
+<body>
+    <header class="background" style="background-image: url('@model.image'); background-size: cover; background-position: center center;">
+        <nav class="navigation">
+            <div class="content">
+                <span class="brand">
+                    <a href="/" class="link">instanceof coffee</a>
+                </span>
+                <span class="links">
+                    <a href="/" class="link">blog</a>
+                    <a href="mailto:instanceofcoffee@marcsteiner.me" class="link">contact</a>
+                </span>
+                <div class="post-info">
+                    <h1>@model.title</h1>
+                    <h3>@model.description</h3>
+                    <h5>by <b><a href="@model.author_url">@model.author</a></b></h5>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container markdown-body">
+        @html.raw(model.article)
+    </main>
+</body>
+
+<script src="/static/js/highlight.js"></script>
+<script src="/static/js/app.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131249369-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131249369-2');
+</script>
+</html>
