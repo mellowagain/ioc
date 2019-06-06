@@ -7,7 +7,7 @@ var shell = require('shelljs');
 marked.setOptions({
     gfm: true,
     headerIds: true,
-    langPrefix: "hljs lang-",
+    langPrefix: "hljs language-",
     tables: true,
     sanitize: false // Do not sanitize as we want the ability to diplay raw html tags in markdown
 });

@@ -11,4 +11,8 @@ for (var i = 0; i < quotes.length; i++) {
 for (var j = 0; j < codes.length; j++) {
     var code = codes[j];
     code.innerHTML = code.innerHTML.trim();
+
+    if (code.parentElement != null && code.parentElement.nodeName.toUpperCase() === "PRE") {
+        code.parentElement.classList.add("hljs");
+    }
 }

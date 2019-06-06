@@ -203,7 +203,7 @@ pre {
     padding: 12px !important;
 }
 
-/* mobile improvements :D */
+/* mobile improvements */
 
 @media only screen and (max-width: 420px) {
     nav.navigation div.content span.brand {
