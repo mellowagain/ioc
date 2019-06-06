@@ -49,7 +49,7 @@ But now lets get to the actual interesting part. osu! sends a POST request to th
 Looking at the body sent, it seems to be login and client information. This is the request
 that authenticates us with the osu!Bancho server. The body is in the following format:
 
-```
+```plaintext
 username
 md5sum of the password
 Version|UTC offset|Display full location|Colon seperated list of MAC addresses which are MD5 hashed|Block non-friend PMs
@@ -173,7 +173,7 @@ interpreting one which doesn't have a string body.
 
 The same HTTP body also contained another packet:
 
-```
+```hex
 05 00 00 04 00 00 00 FF FF FF FF
 ```
 
