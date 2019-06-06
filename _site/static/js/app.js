@@ -16,3 +16,5 @@ for (var j = 0; j < codes.length; j++) {
         code.parentElement.classList.add("hljs");
     }
 }
+
+console.log("Hey! Checkout the code of this site at https://github.com/Marc3842h/ioc");
