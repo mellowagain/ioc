@@ -4,6 +4,14 @@ var marked = require("marked");
 var vash = require("vash");
 var shell = require('shelljs');
 
+marked.setOptions({
+    gfm: true,
+    headerIds: true,
+    langPrefix: "hljs lang-",
+    tables: true,
+    sanitize: false // Do not sanitize as we want the ability to diplay raw html tags in markdown
+});
+
 // https://stackoverflow.com/a/497790
 var dates = {
     convert:function(d) {
