@@ -36,7 +36,7 @@
                 </span>
                 <div class="post-info">
                     <h1>@model.title</h1>
-                    <h3>@model.description</h3>
+                    <h3>@html.raw(model.description)</h3>
                     <h5>by <b><a href="@model.author_url">@model.author</a></b></h5>
                 </div>
             </div>
