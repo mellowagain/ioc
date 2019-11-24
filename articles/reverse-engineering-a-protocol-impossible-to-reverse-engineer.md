@@ -23,7 +23,7 @@ So let's start by opening up Wireshark and just capturing a few packets. You'll 
 quickly that the communication between the osu! client and the osu!Bancho server happens
 using simple HTTP requests.
 
-![Wireshark](/static/img/f8bcb43a-c0c5-4a2a-a9eb-8b71880b6098.png)
+![Wireshark](/static/img/reapitre/f8bcb43a-c0c5-4a2a-a9eb-8b71880b6098.png)
 
 Normally, these would be sent over HTTPS but I've gone ahead and patched my client
 to connect to osu!Bancho servers without HTTPS. If you want to decrypt the original
@@ -61,7 +61,7 @@ list of MAC addresses contained a string which wasn't md5 hashed, it's value was
 
 Now let's take a look at what the server responded and...
 
-![Response](/static/img/54f8c121-87fa-447f-82cb-2f2ebcaca801.png)
+![Response](/static/img/reapitre/54f8c121-87fa-447f-82cb-2f2ebcaca801.png)
 
 What the hell? Until now everything was nice and plain text and now we got some garbage data
 with some strings between them? This doesn't seem right - well, actually, it does. We'll
@@ -118,7 +118,7 @@ out_announce = 24,
 
 and sending this exact packet to our osu! client confirms our thesis:
 
-![Osu Ingame](/static/img/637b8d55-85d7-41dc-b2d1-2448222a1836.png)
+![osu! Ingame](/static/img/reapitre/637b8d55-85d7-41dc-b2d1-2448222a1836.png)
 
 We also got `15` for the packet data size and looking at the remaining bytes, they are
 exactly 15. Great! Seems we're on a good way already. So let's continue reading the packet
