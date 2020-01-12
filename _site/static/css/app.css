@@ -223,3 +223,39 @@ pre {
         margin-right: 6px;
     }
 }
+
+/* dark mode */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #000000;
+    }
+
+    th {
+        background-color: #000000;
+    }
+
+    td {
+        background-color: #000000;
+    }
+
+    nav.navigation div.content a.link {
+        color: rgb(217, 217, 217);
+    }
+
+    nav.navigation div.content a.link:hover {
+        color: rgb(217, 217, 217);
+    }
+
+    .markdown-body {
+        color: rgb(217, 217, 217) !important;
+    }
+
+    main.container div.blog-post h1 a {
+        color: rgb(217, 217, 217);
+    }
+
+    main.container div.blog-post h3 a {
+        color: #ffffff;
+    }
+}
