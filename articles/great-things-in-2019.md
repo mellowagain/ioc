@@ -37,7 +37,7 @@ Well in my defense, I only subscribed to Spotify Premium this year (even thought
 * [Reply All](https://gimletmedia.com/shows/reply-all) - *I found out about this podcast from Waveform (the one below) and the stories told are seriously great.*
 * [Waveform](https://open.spotify.com/show/6o81QuW22s5m2nfcXWjucc) - *In-depth discussions about the latest tech from MKBHD, the largest technology channel on YouTube. Having high expectations when this was announced, I was not disappointed when I actually listened to it.*
 
-## Favorite musician discovered
+## Favorite musicians discovered
 
 All artists here are in the Lo-Fi genre. It is my favorite music genre and listen to it almost exclusively, both at home and on my almost daily public transport rides
 to work/school.
