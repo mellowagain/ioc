@@ -65,8 +65,14 @@ to work/school.
 
 ## Countries visited
 
-* United Kingdom
+For the first time in:
+
 * Qatar
+* United Kingdom
+
+Visited again:
+
+* Germany
 * Philippines
 
 ## Great tools discovered
