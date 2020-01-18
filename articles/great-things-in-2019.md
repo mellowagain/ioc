@@ -39,7 +39,7 @@ Well in my defense, I only subscribed to Spotify Premium this year (even thought
 
 ## Favorite musicians discovered
 
-All artists here are in the Lo-Fi genre. It is my favorite music genre and listen to it almost exclusively, both at home and on my almost daily public transport rides
+All artists here are in the Lo-Fi genre. It is my favorite music genre and I listen to it almost exclusively, both at home and on my almost daily public transport rides
 to work/school.
 
 * [City Girl](https://twitter.com/citygirltime) - *I love that almost every song has a story behind it which completes the City Girl character.*
@@ -48,19 +48,12 @@ to work/school.
 ## Favorite shows discovered
 
 * [A Place Further Than The Universe](https://anilist.co/anime/99426/A-Place-Further-Than-the-Universe/)
-* [Anohana](https://anilist.co/anime/9989/Anohana-The-Flower-We-Saw-That-Day/)
-* [Death Parade](https://anilist.co/anime/20931/Death-Parade/)
 * [Gabriel Dropout](https://anilist.co/anime/21878/Gabriel-DropOut/)
 * [Hibike Euphonium](https://anilist.co/anime/20912/Sound-Euphonium/)
 * [I Want to Eat Your Pancreas](https://anilist.co/anime/99750/I-Want-to-Eat-Your-Pancreas/)
 * [K-ON!](https://anilist.co/anime/5680/KON/)
 * [Kaguya-sama: Love is War](https://anilist.co/anime/101921/Kaguyasama-Love-is-War/)
-* [Plastic Memories](https://anilist.co/anime/20872/Plastic-Memories/)
-* [Psycho-Pass](https://anilist.co/anime/13601/PSYCHOPASS/)
-* [Terror in Resonance](https://anilist.co/anime/20661/Terror-in-Resonance/)
 * [The Pet Girl of Sakurasou](https://anilist.co/anime/13759/The-Pet-Girl-of-Sakurasou/)
-* [Toradora!](https://anilist.co/anime/4224/Toradora/)
-* [Your Name.](https://anilist.co/anime/21519/Your-Name/)
 
 ## Favorite games discovered
 
@@ -68,7 +61,7 @@ to work/school.
 * [Cytus II (Android)](https://play.google.com/store/apps/details?id=com.rayark.cytus2&hl=en)
 * [Overwatch (PC)](https://playoverwatch.com/en-us/)
 * [Business Tour (PC)](https://store.steampowered.com/app/397900/Business_Tour__Board_Game_with_Online_Multiplayer/)
-* [Anxiety: An Interactive Story (Web)](https://ncase.me/anxiety-demo/) - *A interactive game where YOU play as the anxienty. Small demo that I really enjoyed. Looking forward to the actual game!*
+* [Anxiety: An Interactive Story (Web)](https://ncase.me/anxiety-demo/) - *A interactive game where YOU play as the anxiety. Small demo that I really enjoyed. Looking forward to the actual game!*
 
 ## Countries visited
 
