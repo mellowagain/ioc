@@ -78,12 +78,17 @@ Object.keys(files).forEach(function(fileName) {
 
         var splitted = pair.split(": ");
         var key = splitted[0];
+        var value = splitted[1];
 
         // Fix up legacy stuff
         if (key === "authorUrl")
             key = "author_url";
 
-        model[key] = splitted[1];
+        // Windows \r\n to \n weirdness
+        if (value !== undefined && value.endsWith('\r'))
+            value = value.replace('\r', '');
+
+        model[key] = value;
     });
 
     var renderedMarkdown = marked(fileContent.substr(end + 3));
@@ -165,8 +170,10 @@ function convertToISODate(glacierStr) {
     day = day.substring(0, day.length - 1);
     var year = splitted[2];
 
+    var result = year + "-" + mapping[month.toLowerCase()] + "-" + day;
+
     // 2018-10-21T00:00:00
-    return year + "-" + mapping[month.toLowerCase()] + "-" + day;
+    return result;
 }
 
 // https://stackoverflow.com/a/1137579
