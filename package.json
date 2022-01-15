@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Marc3842h/ioc#readme",
   "dependencies": {
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "shelljs": "^0.8.3",
     "vash": "^0.12.6"
   }
